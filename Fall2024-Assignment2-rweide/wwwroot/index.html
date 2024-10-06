@@ -3,10 +3,35 @@
 
 <head>
     <link rel="stylesheet" href="./style.css">
+    <link href="jquery-ui.css" rel="stylesheet">
+    <title>BingBong</title>
 </head>
 
 <body>
+    <div id="SearchBox">
+        <h1 class="centered_text" id="HeaderTitle">BingBong</h1>
+        <input type="text" id="query" name="query"><br>
+        <div id="buttonrow">
+            <button type="button" id="Search" onclick="searchButtonCallApi()">Search</button>
+            <button type="button" id="TimeButton" onclick="timeButtonClick()">Current Time</button>
+            <button type="button" id="LuckyButton" onclick="feelingLuckyButton()">I'm Feeling Lucky</button>
+        </div>
+    </div>
+
+    <div id="searchResults">
+        <p>Hello!</p>
+    </div>
+
+    <div id="time">
+
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <script src="jquery-ui.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr" crossorigin="anonymous"></script>-->
     <script type="text/javascript" src="./script.js"></script>
+
 </body>
 
 </html>

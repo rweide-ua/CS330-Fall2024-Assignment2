@@ -1,0 +1,60 @@
+body {
+    background-image: url("images/backgrounds/background1_nick-design-fR-v9C_5QPg-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: gray;
+}
+
+#SearchBox {
+    margin: auto;
+    width: 70%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 50px #333333;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    #SearchBox {
+        width: 90%;
+    }
+}
+
+#HeaderTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #eeeeee;
+}
+
+#buttonrow {
+    display: flex;
+    justify-content: center;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+#query {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+#searchResults, #time {
+    visibility: hidden;
+}
+
+#searchResults {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px);
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
